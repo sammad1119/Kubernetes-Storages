@@ -21,6 +21,7 @@ Each node in the Kubernetes cluster where Longhorn is installed must fulfill the
 ## Using the Environment Check Script
 
 This script can be used to check the Longhorn environment for potential issues.
+
 ```
 curl -sSfL https://raw.githubusercontent.com/longhorn/longhorn/v1.6.1/scripts/environment_check.sh | bash
 
