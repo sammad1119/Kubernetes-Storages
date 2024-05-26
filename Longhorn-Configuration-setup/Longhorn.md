@@ -89,6 +89,16 @@ helm install longhorn longhorn/longhorn --namespace longhorn-system --create-nam
 ```
 kubectl -n longhorn-system get pod
 ```
+## Access the UI of Longhorn
+
+- Next we want to view the longhorn ui. I will port forward but you can use any applicable form
+
+```
+kubectl port-forward -n longhorn-system svc/longhorn-frontend 8080:80
+
+```
+- Get the IP address of your machine  and view the UI
+
 
 ## Conclusion 
 
