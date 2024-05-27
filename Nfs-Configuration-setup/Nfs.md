@@ -181,6 +181,8 @@ microk8s kubectl describe pvc my-pvc
 
 ```
 
+
+
  ## Configure the worker node (SSH to the worker nodes and follow execute below commands)
 ```
  sudo apt update
