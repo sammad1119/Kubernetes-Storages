@@ -149,10 +149,6 @@ you can use the following command:
 
 If the above command gives  the following error.
 ```
-User
-sudo microk8s connect-external-ceph     --ceph-conf /var/snap/microceph/981/conf/ceph.conf     --keyring /var/snap/microceph/981/conf/ceph.client.admin.keyring     --rbd-pool microk8s-rbd
-[sudo] password for microk8s-dr1:
-Traceback (most recent call last):
   File "/var/snap/microk8s/common/plugins/connect-external-ceph", line 184, in <module>
     main()
   File "/snap/microk8s/6809/usr/lib/python3/dist-packages/click/core.py", line 764, in __call__
