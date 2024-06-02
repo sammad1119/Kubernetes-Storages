@@ -90,6 +90,11 @@ helm install longhorn longhorn/longhorn --namespace longhorn-system --create-nam
 ```
 kubectl -n longhorn-system get pod
 ```
+## If driver-deployer error comes add following lines to the deployment file in csi section 
+```
+ name :kubelet-root-dir
+ value :/var/lib/kubelet
+```
 ## Access the UI of Longhorn
 
 - Next we want to view the longhorn ui. I will port forward but you can use any applicable form
